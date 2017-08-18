@@ -48,7 +48,7 @@ typedef struct {
     int *res_IDs; // array of residue IDs. size = nres
     const char **res_names; // names of the residues. array size = nres
     int *res_natoms; // number of atoms per residue. array size = nres
-    real *res_eta; // eta value of each residue. array size = nres
+    real *eta; // eta value of each residue. array size = nres
 
     // the following values may or may not be set, and are used
     // internally by ensemble_comp.
